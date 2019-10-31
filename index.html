@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>皇帝企鵝專頁</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 網頁抬頭選單 -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand">
+                    <img src="image/logo1.png" alt="logo" />
+                </a>
+                <!-- 手機選單漢堡按鈕 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+          <!-- 漢堡ICON -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <!-- 選單內容 -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="#product" class="nav-link">皇帝企鵝</a></li>
+                        <li><a href="#video" class="nav-link">生態</a></li>
+                        <li><a href="#creative" class="nav-link">天敵</a></li>
+                        <li><a href="#activity" class="nav-link">差別</a></li>
+                        <li><a href="#standard" class="nav-link">分類</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 可以輪播的Banner圖片 -->
+    <section id="product">
+        <div id="carousel-controller" class="carousel slide" data-ride="carousel">
+            <!-- 輪播圖片 -->
+            <div class="carousel-inner">
+                <!-- 圖片1 -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="image/1.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>群居性</h1>
+                        <p>寒風吹襲 相聚取暖</p>
+                    </div>
+                </div>
+                <!-- 圖片2 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="image/2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>游泳健將</h1>
+                        <p>潛水565米深 閉氣1小時 </p>
+                    </div>
+                </div>
+                <!-- 圖片3 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="image/3.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>渾圓可愛</h1>
+                        <p>我只是毛多了點</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 圖片上一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- 圖片下一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="next" class=" carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- 下方點點 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-controller" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-controller" data-slide-to="1"></li>
+                <li data-target="#carousel-controller" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- 影片 -->
+    <section class="container-fluid video-area" id="video">
+        <div class="video-container">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/vhyl6f6YM5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </div>
+    </section>
+
+    <!-- 產品介紹區塊(創意) -->
+    <section id="creative" class="creative_area">
+        <div class="container">
+            <h2 class="text-center">
+                可怕天敵
+            </h2>
+            <!-- 產品照片 -->
+            <div class="row">
+                <!-- 照片組1 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片1" src="image/4.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">豹海豹</span>
+                                <span class="card-text">外表呆萌 狩獵兇殘</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>Danger</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組2 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片2" src="image/5.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">逆戟鯨</span>
+                                <span class="card-text">不只殺人 也殺企鵝</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>Danger</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組3 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片3" src="image/6.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">賊鷗</span>
+                                <span class="card-text">柿子挑軟的捏</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>Danger</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 商品文案 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="article_text">
+                    <h3>新生</h3>
+                    <p>每年3至4月 皇帝企鵝開始求愛</br>
+                    在5至6月 雌企鵝會產下一枚重0.45千克的蛋</br>
+                    孵化時間大約65天 這期間 雄企鵝不進食</br>
+                    雌性企鵝大約出海2個月後</br> 
+                    便會返回 吐出儲存在胃裡的食物來餵食小企鵝</br>
+                    小企鵝出生大約兩個月後也可以單獨活動</br> 
+                    會聚在一起取暖 但它們仍需要父母的餵食</br>
+                    在南極的夏季即將結束時 小企鵝和企鵝父母將會一起返回大海的捕食區</br>
+                    在夏季結束後</br>
+                    未達到性成熟的企鵝將繼續留在捕食區</br>
+                    而那些成年的企鵝將重新開始返回繁殖區的旅程
+                    
+                    <h1>Aptenodytes forsteri</h1>
+                    <p>比國王企鵝還高大，因此命名為皇帝企鵝</br>
+                        目前最大的企鵝
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 背景影片 -->
+        <div class="container">
+            <video autoplay muted loop id="myVideo">
+        <source src="image/2.mp4" type="video/mp4">
+      </video>
+        </div>
+    </section>
+
+    <!-- 商品促銷活動區塊 -->
+    <section id="activity" class="activity_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="image/7.jpg">
+                </div>
+
+                <div class="col-md-4 activity_price text-center">
+                    <h2><span>皇帝企鵝</span></br> 和 </br><span>國王企鵝</span></h2>
+                    <h1>的差別</h1>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="image/8.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 規格 -->
+    <section id="standard" class="standard_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <table class="table table-hover">
+                        <tr>
+                            <h5 scope="col">科學分類</h5>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <th scope="row">界：</th>
+                                <td>	動物界 Animalia</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">門：</th>
+                                <td>	脊索動物門 Chordata</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">綱：</th>
+                                <td colspan="2">	鳥綱 Aves</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">目：</th>
+                                <td colspan="2">	企鵝目 Sphenisciformes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">科：</th>
+                                <td colspan="2">企鵝科 Spheniscidae</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">屬：</th>
+                                <td colspan="2">王企鵝屬 Aptenodytes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">種：</th>
+                                <td colspan="2">皇帝企鵝 A. forsteri</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <table class="table">
+                        <tr>
+                            <h5 scope="col">保護狀況：</h5>
+                        </tr>
+                        <ul class="standard_use">
+                            <li>在19世紀末20世紀初，為了獲取皇帝企鵝身上的油脂，曾有大量皇帝企鵝遭到人類屠殺，其數量不斷下減，到20世紀20年代前後，由於受公眾輿論強烈譴責，這種野蠻的屠殺才被迫停止。</li>
+                            <li>至1964年南極條約協商國制訂《保護南極動植物區系議定措施》之後，皇帝企鵝及其他許多南極物種已受到普遍的保護。</li>
+                            <li>皇帝企鵝的現存數量估計在15萬至20萬對左右，其種群數量相對穩定，從2001年起，世界自然保護聯盟瀕危物種紅色名錄中，皇帝企鵝的保護狀況為近危。</li>
+                            <li>自2009至2012年，由澳洲南極事務局、英國南極勘測(BAS)、明尼蘇達大學、美國國家科學基金會(National Science Foundation)，
+                            以及斯克里普斯海洋研究所(Scripps Institution of Oceanography)共組的研究團隊透過空照圖，使原先從地面取得的企鵝數量分析更為準確。</li>
+                            <li>調查結果顯示現存於南極之數量將近60萬</li>
+                            
+                        </ul>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 貼心提醒 -->
+    <section>
+        <div class="container content">
+            <div class="row remind">
+                <h4>貼心提醒</h4>
+                <div class="w-100"></div>
+                <p>皇帝企鵝特徵</p>
+                <ul>
+                    <li>體型最大 毛色是漂亮的黑色</li>
+                    <li>脖子上的黃色部分是開放&漸層</li>
+                    <li>幼鳥是淡灰色的</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 footer_logo">
+                    <img src="image/logo1.png">
+                </div>
+                <div class="col-md-4 col-sm-12 footer_address">
+                    <ul>
+                        <li>專 線：penguiniscute</li>
+                        <li>服務時間：24小時不打企鵝</li>
+                        <li>服務信箱：Penguin@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>COPYRIGHT © 2019 penguin .ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+    <script src="js/back_top.js"></script>
+</body>
+
+</html>
